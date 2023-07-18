@@ -12,12 +12,12 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>BOOLEAN Classe #98</h1>
+                <h1>BOOLEAN Classe #98 - Students</h1>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>This is my first Laravel try. What I intended to do is to create 3 files to list a relational array in every single file wht the names of the Students, the Teachers, and all the other members of Boolean that work together to drive us through the process of becoming Professional Full-Stack web developers.</p>
+                <p>This is my first Laravel project. What I intended to do is to create 3 files to list relational arrays in every single file with the names, surnames and pictures of the Students, and added the role to the Teachers, and all the other members of Boolean Team that work together to drive us through the process of becoming Professional Full-Stack web developers.</p>
             </div>
         </div>
         <div class="dropdown">
@@ -36,7 +36,7 @@
                 <div class="card">
                     <img src="{{ $student['img'] }}" class="card-img-top" alt="{{ $student['name'] }}'s Picture" style="max-height:304px; object-fit:cover;">
                     <div class="card-body">
-                        <p class="card-text text-center">{{ $student['name'] }} {{ $student['surname'] }}</p>
+                        <h4 class="card-text text-center fw-bold">{{ $student['name'] }} {{ $student['surname'] }}</h4>
                     </div>
                 </div>
             </div>
