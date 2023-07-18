@@ -36,7 +36,7 @@ Route::get('/students-list', function () {
                 'img' => 'https://ca.slack-edge.com/T91QPE3BP-U04V63FVAF5-84d142d5fc85-512',
             ],
             [
-                'name' => 'Cosimo Damiano',
+                'name' => 'Cosimo',
                 'surname' => 'Colucci',
                 'img' => 'https://ca.slack-edge.com/T91QPE3BP-U0504H6KK9P-807fb249928f-512',
             ],
